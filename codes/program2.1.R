@@ -64,6 +64,8 @@ Program_2_1 <- function(beta = 1.4247, gamma = 0.14286, S0 = 1-1e-6, I0 = 1e-6, 
   return(list(t = t, S = S, I = I, R = R))
 }
 
+#create
+
 # Example usage:
 # result <- Program_2_1()
 # Or with custom parameters:
